@@ -1,9 +1,16 @@
-let js = "amazing";
-console.log(40 + 8 + 23 - 10);
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSarah = now - 2018;
 
-console.log("Alec");
-console.log(23);
+console.log(now - 1991 > now - 2018);
 
-let firstName = "Alec";
+console.log(25 - 1 - 5);
 
-console.log(firstName);
+let x, y;
+//The assignment operator also only works RIGHT-TO-LEFT.
+x = y = 25 - 10 - 5; //x = y = 10
+
+console.log(x, y);
+
+const averageAge = (ageJonas + ageSarah) / 2;
+console.log(ageJonas, ageSarah, averageAge);
