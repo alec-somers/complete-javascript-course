@@ -190,6 +190,6 @@
 // //"Alec is a 38 year old teacher, and he has a(no) driver's license"
 // console.log(alec.getSummary());
 
-for (let rep = 1; rep <= 10; rep++) {
-  console.log("Lifting weights repetition " + rep);
-}
+// for (let rep = 1; rep <= 10; rep++) {
+//   console.log("Lifting weights repetition " + rep);
+// }
